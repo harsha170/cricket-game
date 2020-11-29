@@ -1,0 +1,26 @@
+.scoreBoard{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.resultBoard{
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    text-align: center;
+}
+.resultBox{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .resultBoard{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+  }
